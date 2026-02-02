@@ -35,6 +35,7 @@ public class Alumno implements Serializable {
 	 */
 	public Alumno() {
 		this.notasSet = new HashSet<Notas>();
+		System.out.println("BIENVENIDO");
 	}
 
 	/**
